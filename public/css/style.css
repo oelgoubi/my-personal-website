@@ -1,0 +1,213 @@
+
+body{
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.offset:before
+{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -2.8rem;
+}
+
+a:hover{
+  color: brown;
+}
+
+
+/*--- Navigation ----- */
+
+.navbar
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    background-color: rgba(19, 15, 15, 0.4)!important;
+    padding-bottom: 20px;
+    opacity:0.9;
+    
+}
+.navbar-brand img
+{
+    height: 100px;
+    width: 120px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link
+{
+    color:white;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link.active,
+.navbar-dark .navbar-nav .nav-item .nav-link:hover
+{
+    color:orange;
+    opacity: 0.8;
+}
+
+/*------Landing Page -----*/
+
+.home-inner{
+    background-image: url('../images/REVOLUTION2.png');
+    background-color: orange;
+}
+
+
+.carousel-caption{
+    top : 200px
+}
+
+#carouselExampleSlidesOnly{
+
+    margin:0;
+}
+
+.carousel-item img
+{
+    height: 580px;
+    opacity: 0.9;
+}
+span{
+    color:orange;
+}
+
+.carousel-caption h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black ;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption h2
+{
+    font-size:2rem;
+    text-shadow: .1rem .1rem .5rem black ;
+    text-transform: uppercase;
+    padding-bottom: 1.6rem;
+
+}
+
+.btn-lg
+{
+    border-width: medium;
+    border-style: solid;
+    border-radius: 0;
+}
+
+/*------------- About Me --------*/
+
+#whomai
+{
+    padding-top: 115px;
+}
+
+.table
+{
+    border:none;
+}
+
+
+
+
+.narrow
+{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card 
+{
+    margin-bottom:0;
+    border-radius: 0;
+}
+
+.card img
+{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.card a:hover
+{
+    background-color: orange;
+    border-color: orange;
+    color:black;
+}
+
+
+.narrow
+{
+    width: 75%;
+    margin:1.5rem auto;
+    padding-top: 2rem;
+}
+
+/*fEATURE*/
+
+.jumbotron
+{
+    margin-bottom: 0;
+    padding:2rem 0 3.5rem;
+    border-radius: 0;
+}
+
+h3.heading
+{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+
+.heading-underline
+{
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin:0 auto 2rem;
+
+
+}
+
+
+
+#portfolio
+{
+    margin-bottom: 0;
+}
+
+ /* Contact */
+
+
+ #contact
+ {
+     margin-top: 10px;
+     margin-bottom: 20px;
+     background-color: #40474e;
+     color: white;
+     padding: 20px;
+
+ }
+
+ form{
+     margin-top: 40px;
+ }
+
+ form button:hover
+ {
+    background-color: orange;
+    border-color: orange;
+    color:black;
+ }
+
+ textarea
+ {
+     height: 100px;
+     width: 300px;
+     padding:5px;
+ }
